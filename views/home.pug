@@ -1,0 +1,56 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+  
+block style
+    style 
+         include ../static/style.css 
+
+block content
+ nav#navbar
+ section#introSection 
+      div  Welcome to Kirti's Dance Academy 
+      div.small Eat Sleep Dance Repeat
+
+ section#missionSection
+        h2 Our Mission
+        div.card
+            h3 QUALITY TRAINING
+            div.card-box
+                div.card-img
+                    img(src="/static/img/d3.png")
+                div.card-content
+                    p Proper technique, individual attention, professional dance instructors, creative artistry.
+
+        div.card
+            h3 SAFE, NON-COMPETITIVE ENVIRONMENT
+            div.card-box
+                div.card-img
+                    img(src="/static/img/d2.png")
+                div.card-content
+                    p Nurturing of individual talents, promoting of positive relationships, focus on building self confidence.
+
+        div.card
+            h3 FACILITIES
+            div.card-box
+                div.card-img
+                    img(src="/static/img/d4.png")
+                div.card-content
+                    p Professional sprung dance floors and sound system.
+ section#sponsorsSection 
+      h2 Our Sponsors 
+      div#sponsors 
+        img(src="/static/img/apple.png", alt="Sponsor Image",class="spImage") 
+        img(src="/static/img/skype.png", alt="Sponsor Image",class="spImage") 
+        img(src="/static/img/hp.png", alt="Sponsor Image",class="spImage") 
+        img(src="/static/img/microsoft.png", alt="Sponsor Image",class="spImage") 
+      
+
+
+ footer#footer 
+      | Copyright © 2021 KirtiDanceAcademy.com | All rights reserved
+ script 
+   include ../static/index.js
+
+   

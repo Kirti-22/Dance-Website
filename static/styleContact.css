@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color: rgb(156, 17, 17);
+    padding: 7px 14px;
+    font-family: 'Yeon Sung', cursive;
+    height: 75px;
+}
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+
+.container{
+    min-height:80vh;
+    margin: 43px 0px;
+}
+.container h1{
+    font-family: 'Lobster', cursive;
+    font-size: 34px;
+
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    font-size: 16px;
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    border: 2px solid rgb(153, 52, 52);
+    border-radius: 12px;
+    outline: none;
+}
+.btn{
+    padding: 8px 16px;
+    font-size:18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background:rgb(184, 51, 28);
+    cursor: pointer;
+    outline:none;
+    margin: 26px;
+    
+}
